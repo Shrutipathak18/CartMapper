@@ -1,0 +1,28 @@
+# Updated requirements.txt (working version)
+fastapi==0.109.2
+uvicorn==0.27.1
+python-multipart==0.0.9
+pydantic==2.6.1
+PyPDF2==3.0.1
+opencv-python==4.9.0.80
+Pillow==10.2.0
+requests==2.31.0
+deep-translator==1.11.4
+pandas==2.2.0
+python-dotenv==1.0.1
+numpy==1.26.4
+
+# LangChain ecosystem (updated for compatibility)
+langchain==0.2.0          # Updated to latest stable
+langchain-core==0.2.1     # Matches langchain-groq's needs
+langchain-community==0.2.0
+langchain-groq==0.3.1     # Requires core>=0.3.47
+langchain-text-splitters==0.2.0
+
+# Vector DB and embeddings
+chromadb==0.4.22
+sentence-transformers==2.5.1
+
+# Optional
+onnxruntime==1.17.0
+protobuf==4.25.3
